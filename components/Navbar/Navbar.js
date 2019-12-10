@@ -12,10 +12,7 @@ export default class Navbar extends Component {
 						<NavList>
 							<NavItem>
 								<Link href="/gallery">
-									<>
-										<NavLink>Gallery</NavLink>
-										<NavUnderline />
-									</>
+									<NavLink>Gallery</NavLink>
 								</Link>
 							</NavItem>
 							<NavItem>
