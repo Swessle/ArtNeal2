@@ -1,0 +1,338 @@
+[
+	{
+		"id": 1,
+		"name": "Bird in Flight",
+		"image": "/static/images/cities/birdFlight.jpg",
+		"category": "Cities"
+	},
+	{
+		"id": 2,
+		"name": "Bridge at Night",
+		"image": "/static/images/cities/bridge.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 3,
+		"name": "Guitar Portrait",
+		"image": "/static/images/guitarPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 4,
+		"name": "Old Town Road",
+		"image": "/static/images/cities/horseRoad.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 5,
+		"name": "2 Women",
+		"image": "/static/images/womenPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 6,
+		"name": "4 Jazz",
+		"image": "/static/images/jazzPortrait1.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 7,
+		"name": "2 Men and Their Instrument",
+		"image": "/static/images/2menInstrument.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 8,
+		"name": "2 Jazz Men",
+		"image": "/static/images/2menPortraitBass.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 9,
+		"name": "Painted Doll House",
+		"image": "/static/images/cities/3Dhouse.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 10,
+		"name": "The Abstract",
+		"image": "/static/images/abstract.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 11,
+		"name": "Mini House",
+		"image": "/static/images/cities/3DmodelHouse.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 12,
+		"name": "Nude Abstract",
+		"image": "/static/images/abstractNude.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 13,
+		"name": "Abstract Water",
+		"image": "/static/images/abstractWater.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 14,
+		"name": "Beach Jetti",
+		"image": "/static/images/beachJetti.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 15,
+		"name": "Abstract Water II",
+		"image": "/static/images/abstractWater2.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 16,
+		"name": "The Beach",
+		"image": "/static/images/beachPortrait.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 17,
+		"name": "Waterfront Cabinet",
+		"image": "/static/images/cabinetWaterfront.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 18,
+		"name": "Cafe",
+		"image": "/static/images/cities/cafe.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 19,
+		"name": "Waterfront Cabinet II",
+		"image": "/static/images/cabinetWaterfront5.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 20,
+		"name": "City Life",
+		"image": "/static/images/cities/cityLife.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 21,
+		"name": "Cloud Portrait",
+		"image": "/static/images/cloudPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 22,
+		"name": "Verdant Boat",
+		"image": "/static/images/greenBoat.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 23,
+		"name": "Highway",
+		"image": "/static/images/cities/highway.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 24,
+		"name": "Waves of Horses",
+		"image": "/static/images/horseWaves.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 25,
+		"name": "Guitarist Hands",
+		"image": "/static/images/jazzCloseUp.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 26,
+		"name": "Lifeguard Tower",
+		"image": "/static/images/lifeguardTower.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 27,
+		"name": "Men and a Horse",
+		"image": "/static/images/malePortraits.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 28,
+		"name": "Minimalist Portrait",
+		"image": "/static/images/minimalistPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 29,
+		"name": "Mount Rushmore",
+		"image": "/static/images/mtRushmore.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 30,
+		"name": "In Bed",
+		"image": "/static/images/nude1.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 31,
+		"name": "Nude Woman",
+		"image": "/static/images/nudePortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 32,
+		"name": "2 Nude Women",
+		"image": "/static/images/nudeWomen.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 33,
+		"name": "Palm Tree",
+		"image": "/static/images/palmTree.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 34,
+		"name": "Life in Paris",
+		"image": "/static/images/parisStatue.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 35,
+		"name": "Plant Life",
+		"image": "/static/images/plant.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 36,
+		"name": "Ancient Life",
+		"image": "/static/images/portraitBird.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 37,
+		"name": "Architecture",
+		"image": "/static/images/sideBuilding2.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 38,
+		"name": "Sunset Waterfront",
+		"image": "/static/images/sunsetBoat.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 39,
+		"name": "Sunset in Venice",
+		"image": "/static/images/sunsetBoat2.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 40,
+		"name": "A Couple in Sunset",
+		"image": "/static/images/sunsetCouple.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 41,
+		"name": "Sailboat Sunset",
+		"image": "/static/images/sunsetWaterfront.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 42,
+		"name": "Abstract Waterfront",
+		"image": "/static/images/triangleWaterfront.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 43,
+		"name": "Umbrellas",
+		"image": "/static/images/umbrella.jpg",
+		"category": "Life"
+	},
+	{
+		"id": 44,
+		"name": "Jazz in Creation",
+		"image": "/static/images/unfinishedJazz.jpeg",
+		"category": "Jazz"
+	},
+	{
+		"id": 45,
+		"name": "Waves",
+		"image": "/static/images/water2.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 46,
+		"name": "The Waterfront",
+		"image": "/static/images/waterfront.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 47,
+		"name": "Water rising",
+		"image": "/static/images/waterPainting.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 48,
+		"name": "The Dock",
+		"image": "/static/images/waterfrontDock.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 49,
+		"name": "Waves Crashing",
+		"image": "/static/images/wavesCrashing.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 50,
+		"name": "A Look and a Sip",
+		"image": "/static/images/whitePortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 51,
+		"name": "White Yacht",
+		"image": "/static/images/whiteYacht.jpg",
+		"category": "Nautical"
+	},
+	{
+		"id": 52,
+		"name": "A Look Back",
+		"image": "/static/images/womanPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 53,
+		"name": "The Woman",
+		"image": "/static/images/womanPortrait2.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 54,
+		"name": "Woman in the Shadows",
+		"image": "/static/images/womanPortrait3.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 55,
+		"name": "Ancient Art",
+		"image": "/static/images/womanPortrait4.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 56,
+		"name": "Zebras",
+		"image": "/static/images/zebraPortrait.jpg",
+		"category": "Life"
+	}
+]

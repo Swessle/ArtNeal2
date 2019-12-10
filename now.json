@@ -1,0 +1,13 @@
+{
+	"version": 2,
+	"routes": [
+
+		{
+			"src": "/static/images/(.*)",
+			"headers": {
+				"Cache-Control": "s-maxage=31536000, max-age=31536000"
+			},
+			"continue": true
+		}
+	]
+}
