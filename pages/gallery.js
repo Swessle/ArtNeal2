@@ -27,6 +27,26 @@ export default class gallery extends Component {
 			filteredPics: this.state.pics.filter(e => e.category === "Jazz")
 		});
 	};
+	handleClickedPortrait = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Portrait")
+		});
+	};
+	handleClickedAbstract = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Abstract")
+		});
+	};
+	handleClickedWater = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Nautical")
+		});
+	};
+	handleClickedLife = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Life")
+		});
+	};
 	render() {
 		const masonryOptions = {
 			transitionDuration: 200
@@ -46,6 +66,18 @@ export default class gallery extends Component {
 							<button onClick={this.handleClickedAll}>All</button>
 							<button onClick={this.handleClickedJazz}>
 								Jazz
+							</button>
+							<button onClick={this.handleClickedPortrait}>
+								Portrait
+							</button>
+							<button onClick={this.handleClickedAbstract}>
+								Abstract
+							</button>
+							<button onClick={this.handleClickedWater}>
+								Water
+							</button>
+							<button onClick={this.handleClickedLife}>
+								Life
 							</button>
 						</Box>
 					</Flex>
