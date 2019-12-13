@@ -4,6 +4,7 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
+import LazyLoad from "react-lazyload";
 import galleryPics from "../components/Gallery/gallery.json";
 
 export default class gallery extends Component {
@@ -33,9 +34,11 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<ImageContainer key={i}>
-					<Image src={pic.image} />
-				</ImageContainer>
+				
+					<ImageContainer key={i}>
+						<Image src={pic.image} />
+					</ImageContainer>
+				
 			);
 		});
 		return (
@@ -49,7 +52,9 @@ export default class gallery extends Component {
 							</button>
 						</Box>
 					</Flex>
-					<Gallery options={masonryOptions}>{picsList}</Gallery>
+					<Gallery options={masonryOptions} updateOnEachImageLoad={true}>
+						{picsList}
+					</Gallery>
 				</Container>
 			</Layout>
 		);
@@ -67,7 +72,7 @@ const Gallery = styled(Masonry)`
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	
+
 	display: table;
 `;
 const ImageContainer = styled.div`
