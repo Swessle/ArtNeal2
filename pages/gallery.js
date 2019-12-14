@@ -35,7 +35,7 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<LazyLoad height="100%" overflow={true}>
+				<LazyLoad height="100%">
 					<ImageContainer key={i}>
 						<Image rel="preload" src={pic.image} />
 					</ImageContainer>
