@@ -5,6 +5,7 @@ import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
 import LazyLoad from "react-lazyload";
+
 import galleryPics from "../components/Gallery/gallery.json";
 
 export default class gallery extends Component {
@@ -34,11 +35,11 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				
+				<LazyLoad height="100%" overflow={true}>
 					<ImageContainer key={i}>
-						<Image src={pic.image} />
+						<Image rel="preload" src={pic.image} />
 					</ImageContainer>
-				
+				</LazyLoad>
 			);
 		});
 		return (
@@ -52,7 +53,10 @@ export default class gallery extends Component {
 							</button>
 						</Box>
 					</Flex>
-					<Gallery options={masonryOptions} updateOnEachImageLoad={true}>
+					<Gallery
+						options={masonryOptions}
+						updateOnEachImageLoad={true}
+					>
 						{picsList}
 					</Gallery>
 				</Container>
