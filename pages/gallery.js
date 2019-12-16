@@ -37,14 +37,19 @@ export default class gallery extends Component {
 			filteredPics: this.state.pics.filter(e => e.category === "Abstract")
 		});
 	};
-	handleClickedWater = () => {
+	handleClickedBeach = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Nautical")
+			filteredPics: this.state.pics.filter(e => e.category === "Beach")
 		});
 	};
-	handleClickedLife = () => {
+	handleClickedCity = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Life")
+			filteredPics: this.state.pics.filter(e => e.category === "City")
+		});
+	};
+	handleClickedNudes = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Nudes")
 		});
 	};
 	render() {
@@ -73,11 +78,14 @@ export default class gallery extends Component {
 							<button onClick={this.handleClickedAbstract}>
 								Abstract
 							</button>
-							<button onClick={this.handleClickedWater}>
-								Water
+							<button onClick={this.handleClickedBeach}>
+								Beach Scenes
 							</button>
-							<button onClick={this.handleClickedLife}>
-								Life
+							<button onClick={this.handleClickedCity}>
+								City Scenes
+							</button>
+							<button onClick={this.handleClickedNudes}>
+								Nudes
 							</button>
 						</Box>
 					</Flex>

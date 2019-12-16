@@ -3,13 +3,13 @@
 		"id": 1,
 		"name": "Bird in Flight",
 		"image": "/static/images/cities/birdFlight.jpg",
-		"category": "Cities"
+		"category": "City"
 	},
 	{
 		"id": 2,
 		"name": "Bridge at Night",
 		"image": "/static/images/cities/bridge.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"id": 4,
 		"name": "Old Town Road",
 		"image": "/static/images/cities/horseRoad.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 5,
@@ -39,7 +39,7 @@
 		"id": 7,
 		"name": "2 Men and Their Instrument",
 		"image": "/static/images/2menInstrument.jpg",
-		"category": "Life"
+		"category": "Jazz"
 	},
 	{
 		"id": 8,
@@ -51,7 +51,7 @@
 		"id": 9,
 		"name": "Painted Doll House",
 		"image": "/static/images/cities/3Dhouse.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 10,
@@ -63,7 +63,7 @@
 		"id": 11,
 		"name": "Mini House",
 		"image": "/static/images/cities/3DmodelHouse.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 12,
@@ -81,7 +81,7 @@
 		"id": 14,
 		"name": "Beach Jetti",
 		"image": "/static/images/beachJetti.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 15,
@@ -93,31 +93,31 @@
 		"id": 16,
 		"name": "The Beach",
 		"image": "/static/images/beachPortrait.jpg",
-		"category": "Life"
+		"category": "Beach"
 	},
 	{
 		"id": 17,
 		"name": "Waterfront Cabinet",
 		"image": "/static/images/cabinetWaterfront.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 18,
 		"name": "Cafe",
 		"image": "/static/images/cities/cafe.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 19,
 		"name": "Waterfront Cabinet II",
 		"image": "/static/images/cabinetWaterfront5.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 20,
 		"name": "City Life",
 		"image": "/static/images/cities/cityLife.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 21,
@@ -129,19 +129,19 @@
 		"id": 22,
 		"name": "Verdant Boat",
 		"image": "/static/images/greenBoat.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 23,
 		"name": "Highway",
 		"image": "/static/images/cities/highway.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 24,
 		"name": "Waves of Horses",
 		"image": "/static/images/horseWaves.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 25,
@@ -153,7 +153,7 @@
 		"id": 26,
 		"name": "Lifeguard Tower",
 		"image": "/static/images/lifeguardTower.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 27,
@@ -171,7 +171,7 @@
 		"id": 29,
 		"name": "Mount Rushmore",
 		"image": "/static/images/mtRushmore.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 30,
@@ -195,19 +195,19 @@
 		"id": 33,
 		"name": "Palm Tree",
 		"image": "/static/images/palmTree.jpg",
-		"category": "Life"
+		"category": "Beach"
 	},
 	{
 		"id": 34,
 		"name": "Life in Paris",
 		"image": "/static/images/parisStatue.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 35,
 		"name": "Plant Life",
 		"image": "/static/images/plant.jpg",
-		"category": "Life"
+		"category": "Portrait"
 	},
 	{
 		"id": 36,
@@ -219,43 +219,43 @@
 		"id": 37,
 		"name": "Architecture",
 		"image": "/static/images/sideBuilding2.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 38,
 		"name": "Sunset Waterfront",
 		"image": "/static/images/sunsetBoat.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 39,
 		"name": "Sunset in Venice",
 		"image": "/static/images/sunsetBoat2.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 40,
 		"name": "A Couple in Sunset",
 		"image": "/static/images/sunsetCouple.jpg",
-		"category": "Life"
+		"category": "Beach"
 	},
 	{
 		"id": 41,
 		"name": "Sailboat Sunset",
 		"image": "/static/images/sunsetWaterfront.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 42,
 		"name": "Abstract Waterfront",
 		"image": "/static/images/triangleWaterfront.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 43,
 		"name": "Umbrellas",
 		"image": "/static/images/umbrella.jpg",
-		"category": "Life"
+		"category": "City"
 	},
 	{
 		"id": 44,
@@ -267,31 +267,31 @@
 		"id": 45,
 		"name": "Waves",
 		"image": "/static/images/water2.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 46,
 		"name": "The Waterfront",
 		"image": "/static/images/waterfront.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 47,
 		"name": "Water rising",
 		"image": "/static/images/waterPainting.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 48,
 		"name": "The Dock",
 		"image": "/static/images/waterfrontDock.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 49,
 		"name": "Waves Crashing",
 		"image": "/static/images/wavesCrashing.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 50,
@@ -303,7 +303,7 @@
 		"id": 51,
 		"name": "White Yacht",
 		"image": "/static/images/whiteYacht.jpg",
-		"category": "Nautical"
+		"category": "Beach"
 	},
 	{
 		"id": 52,
@@ -333,6 +333,6 @@
 		"id": 56,
 		"name": "Zebras",
 		"image": "/static/images/zebraPortrait.jpg",
-		"category": "Life"
+		"category": "Portrait"
 	}
 ]
