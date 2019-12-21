@@ -11,22 +11,29 @@ import galleryPics from "../components/Gallery/gallery.json";
 export default class gallery extends Component {
 	state = {
 		pics: galleryPics,
-		filteredPics: galleryPics
+		filteredPics: galleryPics,
+		imagesLoaded: false
 	};
 	componentDidMount() {
-		console.log(galleryPics);
 		this.setState({
 			filteredPics: this.state.pics
 		});
 	}
+	handleLoadImages = () => {
+		this.setState({
+			imagesLoaded: true
+		});
+	};
 	handleClickedAll = () => {
 		this.setState({
-			filteredPics: this.state.pics
+			filteredPics: this.state.pics,
+			imagesLoaded: false
 		});
 	};
 	handleClickedJazz = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Jazz")
+			filteredPics: this.state.pics.filter(e => e.category === "Jazz"),
+			imagesLoaded: false
 		});
 	};
 	render() {
@@ -35,7 +42,7 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<LazyLoad height="100%">
+				<LazyLoad throttle={300} height="100%">
 					<ImageContainer key={i}>
 						<Image rel="preload" src={pic.image} />
 					</ImageContainer>
@@ -56,6 +63,8 @@ export default class gallery extends Component {
 					<Gallery
 						options={masonryOptions}
 						updateOnEachImageLoad={true}
+						onImagesLoaded={this.handleLoadImages}
+						loaded={this.state.imagesLoaded}
 					>
 						{picsList}
 					</Gallery>
@@ -76,8 +85,13 @@ const Gallery = styled(Masonry)`
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-
 	display: table;
+	visibility: none;
+	${props =>
+		props.loaded &&
+		css`
+			visibility: visible;
+		`}
 `;
 const ImageContainer = styled.div`
 	padding: 10px;
