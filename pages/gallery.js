@@ -36,6 +36,31 @@ export default class gallery extends Component {
 			imagesLoaded: false
 		});
 	};
+	handleClickedPortrait = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Portrait")
+		});
+	};
+	handleClickedAbstract = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Abstract")
+		});
+	};
+	handleClickedBeach = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Beach")
+		});
+	};
+	handleClickedCity = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "City")
+		});
+	};
+	handleClickedNudes = () => {
+		this.setState({
+			filteredPics: this.state.pics.filter(e => e.category === "Nudes")
+		});
+	};
 	render() {
 		const masonryOptions = {
 			transitionDuration: 200
@@ -57,6 +82,21 @@ export default class gallery extends Component {
 							<button onClick={this.handleClickedAll}>All</button>
 							<button onClick={this.handleClickedJazz}>
 								Jazz
+							</button>
+							<button onClick={this.handleClickedPortrait}>
+								Portrait
+							</button>
+							<button onClick={this.handleClickedAbstract}>
+								Abstract
+							</button>
+							<button onClick={this.handleClickedBeach}>
+								Beach Scenes
+							</button>
+							<button onClick={this.handleClickedCity}>
+								City Scenes
+							</button>
+							<button onClick={this.handleClickedNudes}>
+								Nudes
 							</button>
 						</Box>
 					</Flex>
