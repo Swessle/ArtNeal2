@@ -21,8 +21,8 @@ export default class Navbar extends Component {
 								</Link>
 							</NavItem>
 							<NavItem>
-								<Link href="/contact">
-									<NavLink>Contact</NavLink>
+								<Link>
+									<NavLink href={`mailto:neal@artneal.com?subject=Art%20Inquiry`} target="_blank"> Contact</NavLink>
 								</Link>
 							</NavItem>
 						</NavList>
@@ -71,6 +71,7 @@ const NavLink = styled.a`
 	font-weight: 700;
 	font-size: 18px;
 	letter-spacing: 4px;
+	text-decoration: none;
 `;
 
 const NavUnderline = styled.div`
@@ -91,3 +92,4 @@ const NavUnderline = styled.div`
 		width: 0;
 	}
 `;
+
