@@ -4,7 +4,7 @@ import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
 
-import galleryPics from "../components/Gallery/gallery.json";
+import images from "../components/Gallery/gallery.js";
 
 export default class gallery extends Component {
 	constructor(props) {
@@ -13,11 +13,12 @@ export default class gallery extends Component {
 		this.handleLayoutReady = this.handleLayoutReady.bind(this);
 	}
 	state = {
-		pics: galleryPics,
-		filteredPics: galleryPics,
+		pics: images,
+		filteredPics: images,
 		layoutReady: false
 	};
 	componentDidMount() {
+		console.log(images);
 		this.setState({
 			filteredPics: this.state.pics
 		});
@@ -84,8 +85,12 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<ImageContainer key={i}>
-					<Image rel="preload" src={pic.image} />
+				<ImageContainer>
+					<Image
+						rel="preload"
+						key={i}
+						src={pic.image}
+					/>
 				</ImageContainer>
 			);
 		});
@@ -118,10 +123,10 @@ export default class gallery extends Component {
 					<Gallery
 						options={masonryOptions}
 						updateOnEachImageLoad={false}
-						onLayoutComplete={this.handleLayoutReady.bind(this)}
-						loaded={this.state.layoutReady}
+						onImagesLoaded={this.handleLayoutReady.bind(this)}
+						// loaded={this.state.layoutReady}
 					>
-						{picsList}
+						{this.state.layoutReady && picsList}
 					</Gallery>
 				</Container>
 			</Layout>
@@ -142,8 +147,8 @@ const Gallery = styled(Masonry)`
 	padding-right: 15px;
 	display: table;
 	transition: opacity 0.5s;
-	visibility: hidden;
-	opacity: 0;
+	visibility: visible;
+	opacity: 1;
 	${props =>
 		props.loaded &&
 		css`
