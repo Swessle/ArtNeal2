@@ -3,8 +3,10 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
+import infiniteScroll from "react-infinite-scroller";
 
 import images from "../components/Gallery/Gallery.js";
+import InfiniteScroll from "react-infinite-scroller";
 
 export default class gallery extends Component {
 	constructor(props) {
@@ -84,9 +86,11 @@ export default class gallery extends Component {
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<ImageContainer>
-					<Image rel="preload" key={i} src={pic.image} />
-				</ImageContainer>
+
+					<ImageContainer>
+						<Image rel="preload" key={i} src={pic.image} />
+					</ImageContainer>
+
 			);
 		});
 		return (
@@ -121,7 +125,9 @@ export default class gallery extends Component {
 						onImagesLoaded={this.handleLayoutReady.bind(this)}
 						// loaded={this.state.layoutReady}
 					>
-						{this.state.layoutReady && picsList}
+					
+							{this.state.layoutReady && picsList}
+						
 					</Gallery>
 				</Container>
 			</Layout>
