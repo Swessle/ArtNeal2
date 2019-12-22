@@ -4,7 +4,7 @@ import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
 
-import images from "../components/Gallery/gallery.js";
+import images from "../components/Gallery/Gallery.js";
 
 export default class gallery extends Component {
 	constructor(props) {
