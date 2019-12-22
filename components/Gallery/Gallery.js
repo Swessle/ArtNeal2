@@ -1,4 +1,4 @@
-const images = [
+module.exports = [
 	{
 		id: 1,
 		name: "Bird in Flight",
@@ -337,4 +337,3 @@ const images = [
 	}
 ];
 
-export default images
