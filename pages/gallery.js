@@ -80,7 +80,7 @@ export default class gallery extends Component {
 	}
 	render() {
 		const masonryOptions = {
-			transitionDuration: 1000
+			transitionDuration: 400
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
