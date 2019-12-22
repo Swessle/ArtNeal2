@@ -80,16 +80,12 @@ export default class gallery extends Component {
 	}
 	render() {
 		const masonryOptions = {
-			transitionDuration: 400
+			transitionDuration: 750
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
 				<ImageContainer>
-					<Image
-						rel="preload"
-						key={i}
-						src={pic.image}
-					/>
+					<Image rel="preload" key={i} src={pic.image} />
 				</ImageContainer>
 			);
 		});
