@@ -1,18 +1,21 @@
 import React, { Component } from "react";
-import Link from "next/link";
 import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import LazyLoad from "react-lazyload";
 
 import galleryPics from "../components/Gallery/gallery.json";
 
 export default class gallery extends Component {
+	constructor(props) {
+		super(props);
+
+		this.handleLayoutReady = this.handleLayoutReady.bind(this);
+	}
 	state = {
 		pics: galleryPics,
 		filteredPics: galleryPics,
-		imagesLoaded: false
+		layoutReady: false
 	};
 	componentDidMount() {
 		this.setState({
@@ -21,57 +24,69 @@ export default class gallery extends Component {
 	}
 	handleLoadImages = () => {
 		this.setState({
-			imagesLoaded: true
+			layoutReady: true
 		});
 	};
 	handleClickedAll = () => {
 		this.setState({
 			filteredPics: this.state.pics,
-			imagesLoaded: false
+			layoutReady: false
 		});
 	};
 	handleClickedJazz = () => {
 		this.setState({
 			filteredPics: this.state.pics.filter(e => e.category === "Jazz"),
-			imagesLoaded: false
+			layoutReady: false
 		});
 	};
 	handleClickedPortrait = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Portrait")
+			filteredPics: this.state.pics.filter(
+				e => e.category === "Portrait"
+			),
+			layoutReady: false
 		});
 	};
 	handleClickedAbstract = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Abstract")
+			filteredPics: this.state.pics.filter(
+				e => e.category === "Abstract"
+			),
+			layoutReady: false
 		});
 	};
 	handleClickedBeach = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Beach")
+			filteredPics: this.state.pics.filter(e => e.category === "Beach"),
+			layoutReady: false
 		});
 	};
 	handleClickedCity = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "City")
+			filteredPics: this.state.pics.filter(e => e.category === "City"),
+			layoutReady: false
 		});
 	};
 	handleClickedNudes = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Nudes")
+			filteredPics: this.state.pics.filter(e => e.category === "Nudes"),
+			layoutReady: false
 		});
 	};
+	handleLayoutReady() {
+		if (!this.state.layoutReady) {
+			this.setState({ layoutReady: true });
+		}
+	}
 	render() {
 		const masonryOptions = {
-			transitionDuration: 200
+			transitionDuration: 1000
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<LazyLoad throttle={300} height="100%">
-					<ImageContainer key={i}>
-						<Image rel="preload" src={pic.image} />
-					</ImageContainer>
-				</LazyLoad>
+				<ImageContainer key={i}>
+					<Image rel="preload" src={pic.image} />
+				</ImageContainer>
 			);
 		});
 		return (
@@ -102,9 +117,9 @@ export default class gallery extends Component {
 					</Flex>
 					<Gallery
 						options={masonryOptions}
-						updateOnEachImageLoad={true}
-						onImagesLoaded={this.handleLoadImages}
-						loaded={this.state.imagesLoaded}
+						updateOnEachImageLoad={false}
+						onLayoutComplete={this.handleLayoutReady.bind(this)}
+						loaded={this.state.layoutReady}
 					>
 						{picsList}
 					</Gallery>
@@ -126,11 +141,14 @@ const Gallery = styled(Masonry)`
 	padding-left: 15px;
 	padding-right: 15px;
 	display: table;
-	visibility: none;
+	transition: opacity 0.5s;
+	visibility: hidden;
+	opacity: 0;
 	${props =>
 		props.loaded &&
 		css`
 			visibility: visible;
+			opacity: 1;
 		`}
 `;
 const ImageContainer = styled.div`
@@ -148,5 +166,6 @@ const Image = styled.img`
 		content: "";
 	}
 	max-width: 100%;
+	max-height: 100%;
 	height: auto;
 `;
