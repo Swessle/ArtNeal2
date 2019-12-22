@@ -18,7 +18,6 @@ export default class gallery extends Component {
 		layoutReady: false
 	};
 	componentDidMount() {
-		console.log(images);
 		this.setState({
 			filteredPics: this.state.pics
 		});
