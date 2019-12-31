@@ -1,338 +1,698 @@
 [
 	{
 		"id": 1,
-		"name": "Bird in Flight",
-		"image": "/static/images/cities/birdFlight.jpg",
-		"category": "City"
-	},
-	{
-		"id": 2,
-		"name": "Bridge at Night",
-		"image": "/static/images/cities/bridge.jpg",
-		"category": "City"
-	},
-	{
-		"id": 3,
-		"name": "Guitar Portrait",
-		"image": "/static/images/guitarPortrait.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 4,
-		"name": "Old Town Road",
-		"image": "/static/images/cities/horseRoad.jpg",
-		"category": "City"
-	},
-	{
-		"id": 5,
-		"name": "2 Women",
-		"image": "/static/images/womenPortrait.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 6,
-		"name": "4 Jazz",
-		"image": "/static/images/jazzPortrait1.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 7,
-		"name": "2 Men and Their Instrument",
-		"image": "/static/images/2menInstrument.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 8,
-		"name": "2 Jazz Men",
-		"image": "/static/images/2menPortraitBass.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 9,
-		"name": "Painted Doll House",
+		"name": "3D House",
 		"image": "/static/images/cities/3Dhouse.jpg",
 		"category": "City"
 	},
 	{
-		"id": 10,
-		"name": "The Abstract",
-		"image": "/static/images/abstract.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 11,
-		"name": "Mini House",
+		"id": 2,
+		"name": "3D Model House",
 		"image": "/static/images/cities/3DmodelHouse.jpg",
 		"category": "City"
 	},
 	{
-		"id": 12,
-		"name": "Nude Abstract",
-		"image": "/static/images/abstractNude.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 13,
-		"name": "Abstract Water",
-		"image": "/static/images/abstractWater.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 14,
-		"name": "Beach Jetti",
-		"image": "/static/images/beachJetti.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 15,
-		"name": "Abstract Water II",
-		"image": "/static/images/abstractWater2.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 16,
-		"name": "The Beach",
-		"image": "/static/images/beachPortrait.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 17,
-		"name": "Waterfront Cabinet",
-		"image": "/static/images/cabinetWaterfront.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 18,
-		"name": "Cafe",
-		"image": "/static/images/cities/cafe.jpg",
+		"id": 3,
+		"name": "Arm Hut",
+		"image": "/static/images/armhut.jpg",
 		"category": "City"
 	},
 	{
-		"id": 19,
-		"name": "Waterfront Cabinet II",
-		"image": "/static/images/cabinetWaterfront5.jpg",
-		"category": "Beach"
+		"id": 4,
+		"name": "Shadow Face",
+		"image": "/static/images/cities/asianshadowface.jpg",
+		"category": "City"
 	},
 	{
-		"id": 20,
+		"id": 5,
+		"name": "Bird In Flight",
+		"image": "/static/images/birdFlight.jpg",
+		"category": "City"
+	},
+	{
+		"id": 6,
+		"name": "Bridge",
+		"image": "/static/images/bridge.jpg",
+		"category": "City"
+	},
+	{
+		"id": 7,
+		"name": "Cafe",
+		"image": "/static/images/cafe.jpg",
+		"category": "City"
+	},
+	{
+		"id": 8,
+		"name": "Cafe Lunch Pation",
+		"image": "/static/images/cafelunchpation.jpg",
+		"category": "City"
+	},
+	{
+		"id": 9,
 		"name": "City Life",
 		"image": "/static/images/cities/cityLife.jpg",
 		"category": "City"
 	},
 	{
+		"id": 10,
+		"name": "Clay Patio",
+		"image": "/static/images/clayfotispatio.jpg",
+		"category": "City"
+	},
+	{
+		"id": 11,
+		"name": "Cowboy Rodeo",
+		"image": "/static/images/cities/cowboyrodeo.jpg",
+		"category": "City"
+	},
+	{
+		"id": 12,
+		"name": "Foggy Bridge",
+		"image": "/static/images/foggybridge.jpg",
+		"category": "City"
+	},
+	{
+		"id": 13,
+		"name": "Golden Gate Shadow",
+		"image": "/static/images/goldengateshadow.jpg",
+		"category": "City"
+	},
+	{
+		"id": 14,
+		"name": "High Way",
+		"image": "/static/images/highway.jpg",
+		"category": "City"
+	},
+	{
+		"id": 15,
+		"name": "Horse Road",
+		"image": "/static/images/horseRoad.jpg",
+		"category": "City"
+	},
+	{
+		"id": 16,
+		"name": "Mirror Cabinet",
+		"image": "/static/images/mirrorcabinet.jpg",
+		"category": "City"
+	},
+	{
+		"id": 17,
+		"name": "Paris Statue",
+		"image": "/static/images/parisStatue.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 18,
+		"name": "Pastel City",
+		"image": "/static/images/cities/pastelcity.jpg",
+		"category": "City"
+	},
+	{
+		"id": 19,
+		"name": "Reflective River",
+		"image": "/static/images/reflectiveriver.jpg",
+		"category": "City"
+	},
+	{
+		"id": 20,
+		"name": "side Building",
+		"image": "/static/images/cities/sideBuilding2.jpg",
+		"category": "City"
+	},
+	{
 		"id": 21,
+		"name": "Azul Saxophone",
+		"image": "/static/images/azulsaxophone.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 22,
+		"name": "Banjo",
+		"image": "/static/images/banjo.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 23,
+		"name": "Blue Jacket Band",
+		"image": "/static/images/cities/bluejacketband.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 24,
+		"name": "Brick Club Portrait",
+		"image": "/static/images/brickclubjazz.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 25,
+		"name": "Cello Shadow",
+		"image": "/static/images/celloshadow.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 26,
+		"name": "Club Portrait",
+		"image": "/static/images/clubjazz.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 27,
+		"name": "Duo Trumpet",
+		"image": "/static/images/duotrumpet.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 28,
+		"name": "Golden Curtain Jazz",
+		"image": "/static/images/minimalistPortrait.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 29,
+		"name": "Hand Flute",
+		"image": "/static/images/handflute.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 30,
+		"name": "Jazz Canvas Band",
+		"image": "/static/images/jazzcanvasband.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 31,
+		"name": "Jazz Close Up",
+		"image": "/static/images/jazzCloseUp.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 32,
+		"name": "Jazz Potrait",
+		"image": "/static/images/jazzPortrait1.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 33,
+		"name": "King Trumpet",
+		"image": "/static/images/kingTrumpet.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 34,
+		"name": "Motwon Jam",
+		"image": "/static/images/motownjam.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 35,
+		"name": "Neon Shirt",
+		"image": "/static/images/neonshirt.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 36,
+		"name": "Pete Kellys",
+		"image": "/static/images/petekellys7.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 37,
+		"name": "Piano Jazz Band",
+		"image": "/static/images/pianojazzband.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 38,
+		"name": "Sax Jam Club",
+		"image": "/static/images/saxjamclub.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 39,
+		"name": "Saxophone Band",
+		"image": "/static/images/saxophoneband.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 40,
+		"name": "Unfinished Jazz",
+		"image": "/static/images/unfinishedJazz.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 41,
+		"name": "Vader Jazz",
+		"image": "/static/images/vaderjazz.jpg",
+		"category": "Jazz"
+	},
+	{
+		"id": 42,
+		"name": "Side Boob",
+		"image": "/static/images/coversideboob.jpg",
+		"category": "Nude"
+	},
+	{
+		"id": 43,
+		"name": "Knee Hugs",
+		"image": "/static/images/kneehugs.jpg",
+		"category": "Nude"
+	},
+	{
+		"id": 44,
+		"name": "No Face Nude",
+		"image": "/static/images/unofacenude.jpeg",
+		"category": "Nude"
+	},
+	{
+		"id": 45,
+		"name": "nude1",
+		"image": "/static/images/nude1.jpg",
+		"category": "Nude"
+	},
+	{
+		"id": 46,
+		"name": "Nude Portrait",
+		"image": "/static/images/nudePortrait.jpg",
+		"category": "Nude"
+	},
+	{
+		"id": 47,
+		"name": "Touchy",
+		"image": "/static/images/touchy.jpg",
+		"category": "Nude"
+	},
+	{
+		"id": 48,
+		"name": "2 Men Instrument",
+		"image": "/static/images/2menInstrument.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 49,
+		"name": "2 Men Bass",
+		"image": "/static/images/2menPortraitBass.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 50,
+		"name": "Cafe",
+		"image": "/static/images/cafe.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 51,
+		"name": "Chair Curtain",
+		"image": "/static/images/chaircurtain.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 52,
 		"name": "Cloud Portrait",
 		"image": "/static/images/cloudPortrait.jpg",
 		"category": "Portrait"
 	},
 	{
-		"id": 22,
-		"name": "Verdant Boat",
+		"id": 53,
+		"name": "Couch Chill",
+		"image": "/static/images/couchchill.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 54,
+		"name": "Galaxy Girl",
+		"image": "/static/images/galaxygirl.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 55,
+		"name": "Green Boat",
 		"image": "/static/images/greenBoat.jpg",
-		"category": "Beach"
+		"category": "Portrait"
 	},
 	{
-		"id": 23,
-		"name": "Highway",
-		"image": "/static/images/cities/highway.jpg",
-		"category": "City"
+		"id": 56,
+		"name": "Guitar Portrait",
+		"image": "/static/images/guitarPortrait.jpg",
+		"category": "Portrait"
 	},
 	{
-		"id": 24,
-		"name": "Waves of Horses",
-		"image": "/static/images/horseWaves.jpg",
-		"category": "Beach"
+		"id": 57,
+		"name": "Horse Road",
+		"image": "/static/images/horseroad.jpg",
+		"category": "Portrait"
 	},
 	{
-		"id": 25,
-		"name": "Guitarist Hands",
-		"image": "/static/images/jazzCloseUp.jpg",
-		"category": "Jazz"
+		"id": 58,
+		"name": "Lady Face",
+		"image": "/static/images/ladyface.jpg",
+		"category": "Portrait"
 	},
 	{
-		"id": 26,
-		"name": "Lifeguard Tower",
-		"image": "/static/images/lifeguardTower.jpg",
-		"category": "Beach"
+		"id": 59,
+		"name": "Make Up Mirror",
+		"image": "/static/images/makeupmirror.jpg",
+		"category": "Portrait"
 	},
 	{
-		"id": 27,
-		"name": "Men and a Horse",
+		"id": 60,
+		"name": "Male Portraits",
 		"image": "/static/images/malePortraits.jpg",
 		"category": "Portrait"
 	},
 	{
-		"id": 28,
+		"id": 61,
 		"name": "Minimalist Portrait",
 		"image": "/static/images/minimalistPortrait.jpg",
 		"category": "Portrait"
 	},
 	{
-		"id": 29,
-		"name": "Mount Rushmore",
-		"image": "/static/images/mtRushmore.jpg",
-		"category": "City"
-	},
-	{
-		"id": 30,
-		"name": "In Bed",
-		"image": "/static/images/nude1.jpg",
+		"id": 62,
+		"name": "Nude 11",
+		"image": "/static/images/nude1.jpeg",
 		"category": "Portrait"
 	},
 	{
-		"id": 31,
-		"name": "Nude Woman",
-		"image": "/static/images/nudePortrait.jpg",
+		"id": 63,
+		"name": "Plant",
+		"image": "/static/images/plant.jpg",
 		"category": "Portrait"
 	},
 	{
-		"id": 32,
-		"name": "2 Nude Women",
-		"image": "/static/images/nudeWomen.jpg",
+		"id": 64,
+		"name": "Portrait Bird",
+		"image": "/static/images/portraitBird.jpg",
 		"category": "Portrait"
 	},
 	{
-		"id": 33,
+		"id": 65,
+		"name": "Red Gift Lady",
+		"image": "/static/images/redgiftlady.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 66,
+		"name": "Sheik",
+		"image": "/static/images/sheik.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 67,
+		"name": "Sun Glasses",
+		"image": "/static/images/sunglasses.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 68,
+		"name": "Sunset Couple",
+		"image": "/static/images/sunsetCouple.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 69,
+		"name": "Sunset Water Front",
+		"image": "/static/images/sunsetWaterfront.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 70,
+		"name": "Triangle Water Front",
+		"image": "/static/images/triangleWaterFront.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 71,
+		"name": "Vanilla Face",
+		"image": "/static/images/vanillaface.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 72,
+		"name": "Water Patio",
+		"image": "/static/images/waterpatio.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 73,
+		"name": "White Portrait",
+		"image": "/static/images/whitePortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 74,
+		"name": "Women Portrait",
+		"image": "/static/images/womanPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 75,
+		"name": "Women Portrait 2",
+		"image": "/static/images/womanPortrait2.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 76,
+		"name": "Women Portrait 3",
+		"image": "/static/images/womanPortrait3.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 77,
+		"name": "Women Portrait 4",
+		"image": "/static/images/womanPortrait4.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 78,
+		"name": "2 Women Portrait",
+		"image": "/static/images/2womenPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 79,
+		"name": "Yellow Flower Vase",
+		"image": "/static/images/yellowflowervase.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 80,
+		"name": "Zebra Portrait",
+		"image": "/static/images/zebraPortrait.jpg",
+		"category": "Portrait"
+	},
+	{
+		"id": 81,
+		"name": "Abstract",
+		"image": "/static/images/abstract.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 82,
+		"name": "Abstract Boats",
+		"image": "/static/images/abstractboats.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 83,
+		"name": "Abstract Lady Face",
+		"image": "/static/images/abstractladyface.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 84,
+		"name": "Abstract Nude",
+		"image": "/static/images/cities/abstractNude.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 85,
+		"name": "Abstract Water",
+		"image": "/static/images/cities/abstractWater.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 86,
+		"name": "Abstract Water 2",
+		"image": "/static/images/abstractWater2.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 87,
+		"name": "Cloud Portrait",
+		"image": "/static/images/cities/cloudPortait.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 88,
+		"name": "Bird In Flight",
+		"image": "/static/images/birdFlight.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 89,
+		"name": "Minimalist Portrait",
+		"image": "/static/images/minimalistPortrait.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 90,
+		"name": "Plant",
+		"image": "/static/images/plant.jpg",
+		"category": "Abstract"
+	},
+	{
+		"id": 91,
+		"name": "Beach Jetti",
+		"image": "/static/images/beachJetti.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 92,
+		"name": "Beach Portrait",
+		"image": "/static/images/cities/beachPortrait.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 93,
+		"name": "Cabinet Water Front",
+		"image": "/static/images/cabinetWaterfront.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 94,
+		"name": "Cabinet Water Front 3",
+		"image": "/static/images/cities/cabinetWaterfront3.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 95,
+		"name": "Cloud Island",
+		"image": "/static/images/cloudisland.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 96,
+		"name": "Green Boat",
+		"image": "/static/images/greeBoat.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 97,
+		"name": "Horse Waves",
+		"image": "/static/images/horseWaves.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 98,
+		"name": "Life Guard Tower",
+		"image": "/static/images/lifeguardTower.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 99,
 		"name": "Palm Tree",
 		"image": "/static/images/palmTree.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 34,
-		"name": "Life in Paris",
-		"image": "/static/images/parisStatue.jpg",
-		"category": "City"
-	},
-	{
-		"id": 35,
-		"name": "Plant Life",
-		"image": "/static/images/plant.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 36,
-		"name": "Ancient Life",
-		"image": "/static/images/portraitBird.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 37,
-		"name": "Architecture",
-		"image": "/static/images/sideBuilding2.jpg",
-		"category": "City"
-	},
-	{
-		"id": 38,
-		"name": "Sunset Waterfront",
-		"image": "/static/images/sunsetBoat.jpg",
+		"id": 100,
+		"name": "Real Life Water Front",
+		"image": "/static/images/realLifeWaterfront.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 39,
-		"name": "Sunset in Venice",
+		"id": 101,
+		"name": "Real Life Water Front 2",
+		"image": "/static/images/cities/realLifeWaterfront2.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 102,
+		"name": "Side Gold Wave",
+		"image": "/static/images/sidegoldwave.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 103,
+		"name": "Sunset Boat",
+		"image": "/static/images/cities/sunsetBoat.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 104,
+		"name": "Sunset Boat 2",
 		"image": "/static/images/sunsetBoat2.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 40,
-		"name": "A Couple in Sunset",
+		"id": 105,
+		"name": "Sunset Couple",
 		"image": "/static/images/sunsetCouple.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 41,
-		"name": "Sailboat Sunset",
-		"image": "/static/images/sunsetWaterfront.jpg",
+		"id": 106,
+		"name": "Sunset Waterfront",
+		"image": "/static/images/cities/sunsetWaterfront.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 42,
-		"name": "Abstract Waterfront",
+		"id": 107,
+		"name": "Triangle Water Front",
 		"image": "/static/images/triangleWaterfront.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 43,
-		"name": "Umbrellas",
+		"id": 108,
+		"name": "Umbrella",
 		"image": "/static/images/umbrella.jpg",
-		"category": "City"
+		"category": "Beach"
 	},
 	{
-		"id": 44,
-		"name": "Jazz in Creation",
-		"image": "/static/images/unfinishedJazz.jpeg",
-		"category": "Jazz"
-	},
-	{
-		"id": 45,
-		"name": "Waves",
+		"id": 109,
+		"name": "Water 2",
 		"image": "/static/images/water2.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 46,
-		"name": "The Waterfront",
+		"id": 110,
+		"name": "Water Front",
 		"image": "/static/images/waterfront.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 47,
-		"name": "Water rising",
-		"image": "/static/images/waterPainting.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 48,
-		"name": "The Dock",
+		"id": 111,
+		"name": "Waterfront Dock",
 		"image": "/static/images/waterfrontDock.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 49,
+		"id": 112,
+		"name": "Water Painting",
+		"image": "/static/images/waterPainting.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 113,
+		"name": "Wave Crash",
+		"image": "/static/images/wavecrash.jpg",
+		"category": "Beach"
+	},
+	{
+		"id": 114,
 		"name": "Waves Crashing",
 		"image": "/static/images/wavesCrashing.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 50,
-		"name": "A Look and a Sip",
-		"image": "/static/images/whitePortrait.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 51,
+		"id": 115,
 		"name": "White Yacht",
 		"image": "/static/images/whiteYacht.jpg",
 		"category": "Beach"
 	},
 	{
-		"id": 52,
-		"name": "A Look Back",
-		"image": "/static/images/womanPortrait.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 53,
-		"name": "The Woman",
-		"image": "/static/images/womanPortrait2.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 54,
-		"name": "Woman in the Shadows",
-		"image": "/static/images/womanPortrait3.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 55,
-		"name": "Ancient Art",
-		"image": "/static/images/womanPortrait4.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 56,
-		"name": "Zebras",
-		"image": "/static/images/zebraPortrait.jpg",
-		"category": "Portrait"
+		"id": 116,
+		"name": "King Trumpet",
+		"image": "/static/images/kingTrumpet.jpg",
+		"category": "Jazz"
 	}
 ]
