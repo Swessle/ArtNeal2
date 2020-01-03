@@ -1,65 +1,106 @@
 import React, { Component } from "react";
-import Link from "next/link";
 import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import galleryPics from "../components/Gallery";
+import galleryPics from "../components/Gallery/Gallery";
 
 export default class gallery extends Component {
+	constructor(props) {
+		super(props);
+		this.handleLayoutReady = this.handleLayoutReady.bind(this);
+	}
 	state = {
 		pics: galleryPics,
-		filteredPics: galleryPics
+		filteredPics: galleryPics,
+		layoutReady: false
 	};
 	componentDidMount() {
-		console.log(galleryPics);
 		this.setState({
 			filteredPics: this.state.pics
 		});
 	}
+	componentDidUpdate() {
+		console.log("updated");
+	}
+	componentWillReceiveProps() {
+		this.masonry.performLayout();
+	}
+	handleLoadImages = () => {
+		this.setState({
+			layoutReady: true
+		});
+	};
 	handleClickedAll = () => {
 		this.setState({
-			filteredPics: this.state.pics
+			filteredPics: this.state.pics,
+			layoutReady: false
 		});
 	};
 	handleClickedJazz = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Jazz")
+			filteredPics: this.state.pics.filter(e => e.category === "Jazz"),
+			layoutReady: false
 		});
 	};
 	handleClickedPortrait = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Portrait")
+			filteredPics: this.state.pics.filter(
+				e => e.category === "Portrait"
+			),
+			layoutReady: false
 		});
 	};
 	handleClickedAbstract = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Abstract")
+			filteredPics: this.state.pics.filter(
+				e => e.category === "Abstract"
+			),
+			layoutReady: false
 		});
 	};
 	handleClickedBeach = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Beach")
+			filteredPics: this.state.pics.filter(e => e.category === "Beach"),
+			layoutReady: false
 		});
 	};
 	handleClickedCity = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "City")
+			filteredPics: this.state.pics.filter(e => e.category === "City"),
+			layoutReady: false
 		});
 	};
 	handleClickedNudes = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Nude")
+			filteredPics: this.state.pics.filter(e => e.category === "Nude"),
+			layoutReady: false
 		});
 	};
+	handleLayoutReady() {
+		if (!this.state.layoutReady) {
+			this.setState({ layoutReady: true });
+			console.log("asdf");
+		}
+	}
+	handleReady() {
+		return console.log("ready");
+	}
 	render() {
 		const masonryOptions = {
-			transitionDuration: 200
+			transitionDuration: 750,
+			stagger: 0,
+			initLayout: false
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-				<ImageContainer key={i}>
-					<Image src={pic.image} />
+				<ImageContainer>
+					<Image
+						rel="preload"
+						key={i}
+						src={pic.image}
+						style={{ zIndex: -i }}
+					/>
 				</ImageContainer>
 			);
 		});
@@ -89,7 +130,15 @@ export default class gallery extends Component {
 							</button>
 						</Box>
 					</Flex>
-					<Gallery options={masonryOptions}>{picsList}</Gallery>
+					<Gallery
+						options={masonryOptions}
+						updateOnEachImageLoad={false}
+						onImagesLoaded={this.handleLayoutReady.bind(this)}
+						onLayoutComplete={this.handleReady}
+						ref={c => (this.masonry = c)}
+					>
+						{this.state.layoutReady && picsList}
+					</Gallery>
 				</Container>
 			</Layout>
 		);
@@ -98,6 +147,10 @@ export default class gallery extends Component {
 
 const Container = styled.div`
 	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 `;
 
 const Gallery = styled(Masonry)`
@@ -107,8 +160,16 @@ const Gallery = styled(Masonry)`
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	
 	display: table;
+	transition: opacity 0.5s;
+	visibility: visible;
+	opacity: 1;
+	${props =>
+		props.loaded &&
+		css`
+			visibility: visible;
+			opacity: 1;
+		`}
 `;
 const ImageContainer = styled.div`
 	padding: 10px;
@@ -125,5 +186,6 @@ const Image = styled.img`
 		content: "";
 	}
 	max-width: 100%;
+	max-height: 100%;
 	height: auto;
 `;
