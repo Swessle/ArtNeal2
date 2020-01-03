@@ -3,15 +3,12 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import infiniteScroll from "react-infinite-scroller";
-
-import images from "../components/Gallery/Gallery.js";
+import images from "../components/Gallery/gallery.json";
 import InfiniteScroll from "react-infinite-scroller";
 
 export default class gallery extends Component {
 	constructor(props) {
 		super(props);
-
 		this.handleLayoutReady = this.handleLayoutReady.bind(this);
 	}
 	state = {
@@ -23,6 +20,12 @@ export default class gallery extends Component {
 		this.setState({
 			filteredPics: this.state.pics
 		});
+	}
+	componentDidUpdate() {
+		console.log("updated");
+	}
+	componentWillReceiveProps() {
+		this.masonry.performLayout();
 	}
 	handleLoadImages = () => {
 		this.setState({
@@ -71,26 +74,37 @@ export default class gallery extends Component {
 	};
 	handleClickedNudes = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Nudes"),
+			filteredPics: this.state.pics.filter(e => e.category === "Nude"),
 			layoutReady: false
 		});
 	};
 	handleLayoutReady() {
+		
 		if (!this.state.layoutReady) {
 			this.setState({ layoutReady: true });
+			console.log("asdf");
 		}
+	}
+	handleReady() {
+		return console.log("ready");
 	}
 	render() {
 		const masonryOptions = {
-			transitionDuration: 750
+			transitionDuration: 750,
+			stagger: 0,
+			initLayout: false,
+			
 		};
 		const picsList = this.state.filteredPics.map((pic, i) => {
 			return (
-
-					<ImageContainer>
-						<Image rel="preload" key={i} src={pic.image} />
-					</ImageContainer>
-
+				<ImageContainer>
+					<Image
+						rel="preload"
+						key={i}
+						src={pic.image}
+						style={{ zIndex: -i }}
+					/>
+				</ImageContainer>
 			);
 		});
 		return (
@@ -123,11 +137,10 @@ export default class gallery extends Component {
 						options={masonryOptions}
 						updateOnEachImageLoad={false}
 						onImagesLoaded={this.handleLayoutReady.bind(this)}
-						// loaded={this.state.layoutReady}
+						onLayoutComplete={this.handleReady}
+						ref={c => (this.masonry = c)}
 					>
-					
-							{this.state.layoutReady && picsList}
-						
+						{this.state.layoutReady && picsList}
 					</Gallery>
 				</Container>
 			</Layout>
@@ -137,6 +150,10 @@ export default class gallery extends Component {
 
 const Container = styled.div`
 	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 `;
 
 const Gallery = styled(Masonry)`
