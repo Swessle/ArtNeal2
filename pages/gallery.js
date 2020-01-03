@@ -3,8 +3,7 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import images from "../components/Gallery/Gallery";
-import InfiniteScroll from "react-infinite-scroller";
+import galleryPics from "../components/Gallery/Gallery";
 
 export default class gallery extends Component {
 	constructor(props) {
@@ -12,8 +11,8 @@ export default class gallery extends Component {
 		this.handleLayoutReady = this.handleLayoutReady.bind(this);
 	}
 	state = {
-		pics: images,
-		filteredPics: images,
+		pics: galleryPics,
+		filteredPics: galleryPics,
 		layoutReady: false
 	};
 	componentDidMount() {
