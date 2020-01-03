@@ -175,23 +175,6 @@
 	},
 	{
 		"id": 30,
-<<<<<<< HEAD
-		"name": "Jazz Canvas Band",
-		"image": "/static/images/jazzcanvasband.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 31,
-		"name": "Jazz Close Up",
-		"image": "/static/images/jazzCloseUp.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 32,
-		"name": "Jazz Potrait",
-		"image": "/static/images/jazzPortrait1.jpg",
-		"category": "Jazz"
-=======
 		"name": "In Bed",
 		"image": "/static/images/nude1.jpg",
 		"category": "Nude"
@@ -207,7 +190,6 @@
 		"name": "2 Nude Women",
 		"image": "/static/images/nudeWomen.jpg",
 		"category": "Nude"
->>>>>>> 615a617d7ee44336f1d3c4ba590d0add75b245de
 	},
 	{
 		"id": 33,
@@ -337,13 +319,8 @@
 	},
 	{
 		"id": 54,
-<<<<<<< HEAD
-		"name": "Galaxy Girl",
-		"image": "/static/images/galaxygirl.jpg",
-=======
 		"name": "Woman in the Shadows",
 		"image": "/static/images/N003.jpg",
->>>>>>> 615a617d7ee44336f1d3c4ba590d0add75b245de
 		"category": "Portrait"
 	},
 	{
@@ -503,7 +480,6 @@
 		"category": "Portrait"
 	},
 	{
-<<<<<<< HEAD
 		"id": 81,
 		"name": "Abstract",
 		"image": "/static/images/abstract.jpg",
@@ -712,280 +688,6 @@
 		"name": "White Yacht",
 		"image": "/static/images/whiteYacht.jpg",
 		"category": "Beach"
-	},
-	{
-		"id": 116,
-		"name": "King Trumpet",
-		"image": "/static/images/kingTrumpet.jpg",
-		"id": 57,
-		"name": "Abstract One",
-		"image": "/static/images/N001.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 58,
-		"name": "Abstract Portrait",
-		"image": "/static/images/N002.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 59,
-		"name": "Sunset Bridge",
-		"image": "/static/images/N007.jpg",
-		"category": "City"
-	},
-	{
-		"id": 60,
-		"name": "Flower Portrait",
-		"image": "/static/images/N004.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 61,
-		"name": "Tame the Bull",
-		"image": "/static/images/N005.jpg",
-		"category": "City"
-	},
-	{
-		"id": 62,
-		"name": "Crash of the Waves",
-		"image": "/static/images/N006.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 63,
-		"name": "Woman in White",
-		"image": "/static/images/N008.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 64,
-		"name": "3D City",
-		"image": "/static/images/N009.jpg",
-		"category": "City"
-	},
-	{
-		"id": 65,
-		"name": "Abstract Building",
-		"image": "/static/images/N010.jpg",
-		"category": "Abstract"
-	},
-	{
-		"id": 66,
-		"name": "Woman's Face",
-		"image": "/static/images/N011.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 67,
-		"name": "Woman and a Couch",
-		"image": "/static/images/N012.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 68,
-		"name": "Woman Sketch",
-		"image": "/static/images/N013.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 69,
-		"name": "Woman in Glasses",
-		"image": "/static/images/N014.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 70,
-		"name": "Shore of the Beach",
-		"image": "/static/images/N015.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 71,
-		"name": "City through the Window",
-		"image": "/static/images/N016.jpg",
-		"category": "City"
-	},
-	{
-		"id": 72,
-		"name": "Shore of the Beach",
-		"image": "/static/images/N017.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 73,
-		"name": "Nude Woman looking Away",
-		"image": "/static/images/N018.jpg",
-		"category": "Nude"
-	},
-	{
-		"id": 74,
-		"name": "Woman's Eyes",
-		"image": "/static/images/N019.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 75,
-		"name": "Chair in the City",
-		"image": "/static/images/N020.jpg",
-		"category": "City"
-	},
-	{
-		"id": 76,
-		"name": "Nude Back",
-		"image": "/static/images/N021.jpg",
-		"category": "Nude"
-	},
-	{
-		"id": 77,
-		"name": "Walk Down the Bridge",
-		"image": "/static/images/N022.jpg",
-		"category": "City"
-	},
-	{
-		"id": 78,
-		"name": "Roof in the City",
-		"image": "/static/images/N023.jpg",
-		"category": "City"
-	},
-	{
-		"id": 79,
-		"name": "Beach Waves",
-		"image": "/static/images/N024.jpg",
-		"category": "Beach"
-	},
-	{
-		"id": 80,
-		"name": "Bike in the City",
-		"image": "/static/images/N026.jpg",
-		"category": "City"
-	},
-	{
-		"id": 81,
-		"name": "Woman in the Mirror",
-		"image": "/static/images/N029.jpg",
-		"category": "Portrait"
-	},
-	{
-		"id": 82,
-		"name": "City Restaurant",
-		"image": "/static/images/N032.jpg",
-		"category": "City"
-	},
-	{
-		"id": 83,
-		"name": "City Restaurant 2",
-		"image": "/static/images/N033.jpg",
-		"category": "City"
-	},
-	{
-		"id": 84,
-		"name": "Jazz Band",
-		"image": "/static/images/N034.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 85,
-		"name": "Jazz Band 2",
-		"image": "/static/images/N035.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 86,
-		"name": "Jazz Band Abstract",
-		"image": "/static/images/N037.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 87,
-		"name": "Jazz Man",
-		"image": "/static/images/N038.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 89,
-		"name": "Jazz Band Cafe",
-		"image": "/static/images/N040.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 90,
-		"name": "Jazz Band Trumpet",
-		"image": "/static/images/N042.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 91,
-		"name": "Pete Kelly's Big 7",
-		"image": "/static/images/N043.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 92,
-		"name": "Jazz Band Cafe 2",
-		"image": "/static/images/N044.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 93,
-		"name": "Jazz Solo",
-		"image": "/static/images/N045.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 94,
-		"name": "Jazz Duo Trumpet",
-		"image": "/static/images/N046.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 95,
-		"name": "Jazz Banjo",
-		"image": "/static/images/N047.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 96,
-		"name": "Jazz Band Trombone",
-		"image": "/static/images/N048.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 97,
-		"name": "Jazz Band Trio",
-		"image": "/static/images/N049.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 98,
-		"name": "Jazz Band Sax",
-		"image": "/static/images/N050.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 99,
-		"name": "Jazz Band 4",
-		"image": "/static/images/N051.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 100,
-		"name": "Jazz Trombone",
-		"image": "/static/images/N052.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 101,
-		"name": "Jazz Sax Solo",
-		"image": "/static/images/N053.jpg",
-		"category": "Jazz"
-	},
-	{
-		"id": 102,
-		"name": "Jazz Man Hands",
-		"image": "/static/images/N054.jpg",
->>>>>>> 615a617d7ee44336f1d3c4ba590d0add75b245de
-		"category": "Jazz"
 	}
 
 ]
