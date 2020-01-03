@@ -4,7 +4,7 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import galleryPics from "../components/Gallery/gallery.json";
+import galleryPics from "../components/Gallery";
 
 export default class gallery extends Component {
 	state = {
