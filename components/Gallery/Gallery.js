@@ -177,19 +177,19 @@ module.exports = [
 		id: 30,
 		name: "In Bed",
 		image: require("../../public/static/images/nude1.jpg"),
-		category: "Portrait"
+		category: "Nude"
 	},
 	{
 		id: 31,
 		name: "Nude Woman",
 		image: require("../../public/static/images/nudePortrait.jpg"),
-		category: "Portrait"
+		category: "Nude"
 	},
 	{
 		id: 32,
 		name: "2 Nude Women",
 		image: require("../../public/static/images/nudeWomen.jpg"),
-		category: "Portrait"
+		category: "Nude"
 	},
 	{
 		id: 33,
@@ -320,7 +320,7 @@ module.exports = [
 	{
 		id: 54,
 		name: "Woman in the Shadows",
-		image: require("../../public/static/images/womanPortrait3.jpg"),
+		image: require("../../public/static/images/N003.jpg"),
 		category: "Portrait"
 	},
 	{
@@ -334,6 +334,275 @@ module.exports = [
 		name: "Zebras",
 		image: require("../../public/static/images/zebraPortrait.jpg"),
 		category: "Portrait"
+	},
+	{
+		id: 57,
+		name: "Abstract One",
+		image: require("../../public/static/images/N001.jpg"),
+		category: "Abstract"
+	},
+	{
+		id: 58,
+		name: "Abstract Portrait",
+		image: require("../../public/static/images/N002.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 59,
+		name: "Sunset Bridge",
+		image: require("../../public/static/images/N007.jpg"),
+		category: "City"
+	},
+	{
+		id: 60,
+		name: "Flower Portrait",
+		image: require("../../public/static/images/N004.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 61,
+		name: "Tame the Bull",
+		image: require("../../public/static/images/N005.jpg"),
+		category: "City"
+	},
+	{
+		id: 62,
+		name: "Crash of the Waves",
+		image: require("../../public/static/images/N006.jpg"),
+		category: "Beach"
+	},
+	{
+		id: 63,
+		name: "Woman in White",
+		image: require("../../public/static/images/N008.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 64,
+		name: "3D City",
+		image: require("../../public/static/images/N009.jpg"),
+		category: "City"
+	},
+	{
+		id: 65,
+		name: "Abstract Building",
+		image: require("../../public/static/images/N010.jpg"),
+		category: "Abstract"
+	},
+	{
+		id: 66,
+		name: "Woman's Face",
+		image: require("../../public/static/images/N011.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 67,
+		name: "Woman and a Couch",
+		image: require("../../public/static/images/N012.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 68,
+		name: "Woman Sketch",
+		image: require("../../public/static/images/N013.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 69,
+		name: "Woman in Glasses",
+		image: require("../../public/static/images/N014.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 70,
+		name: "Shore of the Beach",
+		image: require("../../public/static/images/N015.jpg"),
+		category: "Beach"
+	},
+	{
+		id: 71,
+		name: "City through the Window",
+		image: require("../../public/static/images/N016.jpg"),
+		category: "City"
+	},
+	{
+		id: 72,
+		name: "Shore of the Beach",
+		image: require("../../public/static/images/N017.jpg"),
+		category: "Beach"
+	},
+	{
+		id: 73,
+		name: "Nude Woman looking Away",
+		image: require("../../public/static/images/N018.jpg"),
+		category: "Nude"
+	},
+	{
+		id: 74,
+		name: "Woman's Eyes",
+		image: require("../../public/static/images/N019.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 75,
+		name: "Chair in the City",
+		image: require("../../public/static/images/N020.jpg"),
+		category: "City"
+	},
+	{
+		id: 76,
+		name: "Nude Back",
+		image: require("../../public/static/images/N021.jpg"),
+		category: "Nude"
+	},
+	{
+		id: 77,
+		name: "Walk Down the Bridge",
+		image: require("../../public/static/images/N022.jpg"),
+		category: "City"
+	},
+	{
+		id: 78,
+		name: "Roof in the City",
+		image: require("../../public/static/images/N023.jpg"),
+		category: "City"
+	},
+	{
+		id: 79,
+		name: "Beach Waves",
+		image: require("../../public/static/images/N024.jpg"),
+		category: "Beach"
+	},
+	{
+		id: 80,
+		name: "Bike in the City",
+		image: require("../../public/static/images/N026.jpg"),
+		category: "City"
+	},
+	{
+		id: 81,
+		name: "Woman in the Mirror",
+		image: require("../../public/static/images/N029.jpg"),
+		category: "Portrait"
+	},
+	{
+		id: 82,
+		name: "City Restaurant",
+		image: require("../../public/static/images/N032.jpg"),
+		category: "City"
+	},
+	{
+		id: 83,
+		name: "City Restaurant 2",
+		image: require("../../public/static/images/N033.jpg"),
+		category: "City"
+	},
+	{
+		id: 84,
+		name: "Jazz Band",
+		image: require("../../public/static/images/N034.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 85,
+		name: "Jazz Band 2",
+		image: require("../../public/static/images/N035.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 86,
+		name: "Jazz Band Abstract",
+		image: require("../../public/static/images/N037.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 87,
+		name: "Jazz Man",
+		image: require("../../public/static/images/N038.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 89,
+		name: "Jazz Band Cafe",
+		image: require("../../public/static/images/N040.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 90,
+		name: "Jazz Band Trumpet",
+		image: require("../../public/static/images/N042.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 91,
+		name: "Pete Kelly's Big 7",
+		image: require("../../public/static/images/N043.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 92,
+		name: "Jazz Band Cafe 2",
+		image: require("../../public/static/images/N044.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 93,
+		name: "Jazz Solo",
+		image: require("../../public/static/images/N045.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 94,
+		name: "Jazz Duo Trumpet",
+		image: require("../../public/static/images/N046.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 95,
+		name: "Jazz Banjo",
+		image: require("../../public/static/images/N047.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 96,
+		name: "Jazz Band Trombone",
+		image: require("../../public/static/images/N048.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 97,
+		name: "Jazz Band Trio",
+		image: require("../../public/static/images/N049.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 98,
+		name: "Jazz Band Sax",
+		image: require("../../public/static/images/N050.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 99,
+		name: "Jazz Band 4",
+		image: require("../../public/static/images/N051.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 100,
+		name: "Jazz Trombone",
+		image: require("../../public/static/images/N052.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 101,
+		name: "Jazz Sax Solo",
+		image: require("../../public/static/images/N053.jpg"),
+		category: "Jazz"
+	},
+	{
+		id: 102,
+		name: "Jazz Man Hands",
+		image: require("../../public/static/images/N054.jpg"),
+		category: "Jazz"
 	}
 ];
-

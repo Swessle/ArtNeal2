@@ -10,7 +10,7 @@ module.exports = withPlugins([
 			optimizeImages: true,
 			optimizeImagesInDev: false,
 			mozjpeg: {
-				quality: 20
+				quality: 40
 			}
 		}
 	],

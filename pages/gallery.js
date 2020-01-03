@@ -3,7 +3,7 @@ import styled, { css, keyframes } from "styled-components";
 import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import Masonry from "react-masonry-component";
-import images from "../components/Gallery/gallery.json";
+import images from "../components/Gallery/Gallery";
 import InfiniteScroll from "react-infinite-scroller";
 
 export default class gallery extends Component {
