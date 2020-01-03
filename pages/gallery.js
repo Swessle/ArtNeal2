@@ -49,7 +49,7 @@ export default class gallery extends Component {
 	};
 	handleClickedNudes = () => {
 		this.setState({
-			filteredPics: this.state.pics.filter(e => e.category === "Nudes")
+			filteredPics: this.state.pics.filter(e => e.category === "Nude")
 		});
 	};
 	render() {
