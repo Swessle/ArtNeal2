@@ -443,6 +443,12 @@
 		"image": "/static/images/womanPortrait.jpg",
 		"category": "Portrait"
 	},
+	{
+		"id": 75,
+		"name": "Women Portrait 2",
+		"image": "/static/images/womanPortrait2.jpg",
+		"category": "Portrait"
+	},
 
 	{
 		"id": 76,
