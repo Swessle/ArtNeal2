@@ -109,25 +109,32 @@ export default class gallery extends Component {
 				<Container>
 					<Flex justifyContent="center">
 						<Box>
-							<button onClick={this.handleClickedAll}>All</button>
-							<button onClick={this.handleClickedJazz}>
+							<Button onClick={this.handleClickedAll}>All
+							</Button>
+
+							<Button onClick={this.handleClickedJazz}>
 								Jazz
-							</button>
-							<button onClick={this.handleClickedPortrait}>
+							</Button>
+
+							<Button onClick={this.handleClickedPortrait}>
 								Portrait
-							</button>
-							<button onClick={this.handleClickedAbstract}>
+							</Button>
+
+							<Button onClick={this.handleClickedAbstract}>
 								Abstract
-							</button>
-							<button onClick={this.handleClickedBeach}>
+							</Button>
+
+							<Button onClick={this.handleClickedBeach}>
 								Beach Scenes
-							</button>
-							<button onClick={this.handleClickedCity}>
+							</Button>
+
+							<Button onClick={this.handleClickedCity}>
 								City Scenes
-							</button>
-							<button onClick={this.handleClickedNudes}>
+							</Button>
+
+							<Button onClick={this.handleClickedNudes}>
 								Nudes
-							</button>
+							</Button>
 						</Box>
 					</Flex>
 					<Gallery
@@ -144,6 +151,21 @@ export default class gallery extends Component {
 		);
 	}
 }
+
+const Button = styled.button`
+	color: white;
+	border: 1px solid white;
+	background: transparent;
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	&:hover {
+		background: white;
+		color: black;
+	}
+`
+
+
 
 const Container = styled.div`
 	padding-top: 100px;
