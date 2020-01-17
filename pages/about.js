@@ -4,18 +4,18 @@ import { Flex, Box } from "reflexbox";
 import Layout from "../components/Layout/Layout";
 import nealImage from "../public/static/images/about/nealProfile.jpg"
 import Particles from 'react-particles-js'
-import backImage from "../public/static/images/about/redBlueback.jpg"
+import backImage from "../public/static/images/about/hardWoodback.jpg"
 
 const particleOptions = {
     "particles": {
       "color": {
-        "value": ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
+        "value": ["#778899","#FF4500","#4169E1","#FFD700"]
       },
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
-          "color": "#b6b2b2"
+          "width": 11,
+          "color": "#FFFFFF"
         }
       },
       "opacity": {
@@ -24,7 +24,7 @@ const particleOptions = {
         "anim": {
           "enable": true,
           "speed": 1,
-          "opacity_min": 5,
+          "opacity_min": 8,
           "sync": false
         }
       },
@@ -34,14 +34,14 @@ const particleOptions = {
         "anim": {
           "enable": true,
           "speed": 12.181158184520175,
-          "size_min": 1,
+          "size_min": 6,
           "sync": true
         }
       },
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#c8c8c8",
+        "color": "#FFFFFF",
         "opacity": 9,
         "width": 1
       },
@@ -81,14 +81,14 @@ const particleOptions = {
           }
         },
         "bubble": {
-          "distance": 400,
+          "distance": 600,
           "size": 40,
           "duration": 2,
           "opacity": 8,
           "speed": 3
         },
         "repulse": {
-          "distance": 200,
+          "distance": 600,
           "duration": 0.4
         },
         "push": {
@@ -127,7 +127,7 @@ export default class about extends Component {
                         
                         <Box width={"100%"}>
                         <Particles params={particleOptions}/>
-                            <p style={{ color: 'white', fontSize: '25px',marginBottom:'40px'}}>
+                            <p style={{ color:'white', fontSize: '25px',marginBottom:'10px'}}>
                                 All my life I have been blessed with a beautiful and
                             interesting life. I’ve traveled extensively and lived in
                             scenic and wonderful places. I’ve been surrounded by a
@@ -165,7 +165,7 @@ const ImgContainer = styled.div`
     margin-left:120px;
 `;
 const TextContainer = styled.div`
-    
+  
 `;
 const AboutHeader = styled.h1`
     
