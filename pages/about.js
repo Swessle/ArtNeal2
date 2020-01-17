@@ -24,7 +24,7 @@ const particleOptions = {
         "anim": {
           "enable": true,
           "speed": 1,
-          "opacity_min": 0.1,
+          "opacity_min": 5,
           "sync": false
         }
       },
@@ -34,7 +34,7 @@ const particleOptions = {
         "anim": {
           "enable": true,
           "speed": 12.181158184520175,
-          "size_min": 0.1,
+          "size_min": 1,
           "sync": true
         }
       },
@@ -42,7 +42,7 @@ const particleOptions = {
         "enable": true,
         "distance": 150,
         "color": "#c8c8c8",
-        "opacity": 0.4,
+        "opacity": 9,
         "width": 1
       },
       "move": {
@@ -77,7 +77,7 @@ const particleOptions = {
         "grab": {
           "distance": 400,
           "line_linked": {
-            "opacity": 1
+            "opacity": 8
           }
         },
         "bubble": {
@@ -117,16 +117,17 @@ export default class about extends Component {
                         </Box>
                     </Flex>
                     <Flex justifyContent="center" display="flex">
+                    <Particles params={particleOptions}/>
                         <Box width={"75%"}>
                             <ImgContainer>
-                            <Particles params={particleOptions}/>
+                            
                                 <Image src={nealImage}></Image>
                             </ImgContainer>
                         </Box>
                         
                         <Box width={"100%"}>
                         <Particles params={particleOptions}/>
-                            <p style={{ color: 'white', fontSize: '30px',marginRight:'50px',paddingLeft:'27%' }}>
+                            <p style={{ color: 'white', fontSize: '25px',marginBottom:'40px'}}>
                                 All my life I have been blessed with a beautiful and
                             interesting life. I’ve traveled extensively and lived in
                             scenic and wonderful places. I’ve been surrounded by a
@@ -160,7 +161,7 @@ const Container = styled.div`
 `;
 const ImgContainer = styled.div`
     
-    padding-top: 40px;
+    padding-top: 350px;
     margin-left:120px;
 `;
 const TextContainer = styled.div`
