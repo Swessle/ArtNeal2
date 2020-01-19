@@ -90,7 +90,7 @@ export default class index extends Component {
 							</div>
 							<div>
 								<Image
-									src={require("../public/static/images/portrait/womenPortrait.jpg")}
+									src={require("../public/static/images/portrait/2womenPortrait.jpg")}
 								/>
 							</div>
 							<div>

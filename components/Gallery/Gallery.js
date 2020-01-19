@@ -14,7 +14,7 @@ module.exports = [
 	{
 		"id": 3,
 		"name": "Guitar Portrait",
-		"image": require("../../public/static/images/guitarPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/guitarPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
@@ -26,25 +26,26 @@ module.exports = [
 	{
 		"id": 5,
 		"name": "2 Women",
-		"image": require("../../public/static/images/womenPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/2womenPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 6,
 		"name": "4 Jazz",
-		"image": require("../../public/static/images/jazzPortrait1.jpg"),
+		"image": require("../../public/static/images/jazz/jazzPortrait1.jpg"),
 		"category": "Jazz"
 	},
 	{
 		"id": 7,
 		"name": "2 Men and Their Instrument",
-		"image": require("../../public/static/images/2menInstrument.jpg"),
-		"category": "Jazz"
+		"image": require("../../public/static/images/portrait/2menInstrument.jpg"),
+		"category": "Portrait"
+		
 	},
 	{
 		"id": 8,
 		"name": "2 Jazz Men",
-		"image": require("../../public/static/images/2menPortraitBass.jpg"),
+		"image": require("../../public/static/images/portrait/2menPortraitBass.jpg"),
 		"category": "Jazz"
 	},
 	{
@@ -56,7 +57,7 @@ module.exports = [
 	{
 		"id": 10,
 		"name": "The Abstract",
-		"image": require("../../public/static/images/abstract.jpg"),
+		"image": require("../../public/static/images/abstract/abstract.jpg"),
 		"category": "Abstract"
 	},
 	{
@@ -68,31 +69,31 @@ module.exports = [
 	{
 		"id": 12,
 		"name": "Nude Abstract",
-		"image": require("../../public/static/images/abstractNude.jpg"),
+		"image": require("../../public/static/images/abstract/abstractNude.jpg"),
 		"category": "Abstract"
 	},
 	{
 		"id": 13,
 		"name": "Abstract Water",
-		"image": require("../../public/static/images/abstractWater.jpg"),
+		"image": require("../../public/static/images/abstract/abstractWater.jpg"),
 		"category": "Abstract"
 	},
 	{
 		"id": 14,
 		"name": "Beach Jetti",
-		"image": require("../../public/static/images/beachJetti.jpg"),
+		"image": require("../../public/static/images/beach/beachJetti.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 15,
 		"name": "Abstract Water II",
-		"image": require("../../public/static/images/abstractWater2.jpg"),
+		"image": require("../../public/static/images/abstract/abstractWater2.jpg"),
 		"category": "Abstract"
 	},
 	{
 		"id": 16,
 		"name": "The Beach",
-		"image": require("../../public/static/images/beachPortrait.jpg"),
+		"image": require("../../public/static/images/beach/beachPortrait.jpg"),
 		"category": "Beach"
 	},
 	{
@@ -122,13 +123,13 @@ module.exports = [
 	{
 		"id": 21,
 		"name": "Cloud Portrait",
-		"image": require("../../public/static/images/cloudPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/cloudPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 22,
 		"name": "Verdant Boat",
-		"image": require("../../public/static/images/greenBoat.jpg"),
+		"image": require("../../public/static/images/beach/greenBoat.jpg"),
 		"category": "Beach"
 	},
 	{
@@ -140,31 +141,31 @@ module.exports = [
 	{
 		"id": 24,
 		"name": "Waves of Horses",
-		"image": require("../../public/static/images/horseWaves.jpg"),
+		"image": require("../../public/static/images/beach/horseWaves.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 25,
 		"name": "Guitarist Hands",
-		"image": require("../../public/static/images/jazzCloseUp.jpg"),
+		"image": require("../../public/static/images/jazz/jazzCloseUp.jpg"),
 		"category": "Jazz"
 	},
 	{
 		"id": 26,
 		"name": "Lifeguard Tower",
-		"image": require("../../public/static/images/lifeguardTower.jpg"),
+		"image": require("../../public/static/images/beach/lifeguardTower.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 27,
 		"name": "Men and a Horse",
-		"image": require("../../public/static/images/malePortraits.jpg"),
+		"image": require("../../public/static/images/portrait/malePortraits.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 28,
 		"name": "Minimalist Portrait",
-		"image": require("../../public/static/images/minimalistPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/minimalistPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
@@ -176,19 +177,19 @@ module.exports = [
 	{
 		"id": 30,
 		"name": "In Bed",
-		"image": require("../../public/static/images/nude1.jpg"),
+		"image": require("../../public/static/images/nudes/nude1.jpg"),
 		"category": "Nude"
 	},
 	{
 		"id": 31,
 		"name": "Nude Woman",
-		"image": require("../../public/static/images/nudePortrait.jpg"),
+		"image": require("../../public/static/images/nudes/nudePortrait.jpg"),
 		"category": "Nude"
 	},
 	{
 		"id": 32,
 		"name": "2 Nude Women",
-		"image": require("../../public/static/images/nudeWomen.jpg"),
+		"image": require("../../public/static/images/nudes/nudeWomen.jpg"),
 		"category": "Nude"
 	},
 	{
@@ -200,121 +201,121 @@ module.exports = [
 	{
 		"id": 34,
 		"name": "Life in Paris",
-		"image": require("../../public/static/images/parisStatue.jpg"),
+		"image": require("../../public/static/images/cities/parisStatue.jpg"),
 		"category": "City"
 	},
 	{
 		"id": 35,
 		"name": "Plant Life",
-		"image": require("../../public/static/images/plant.jpg"),
+		"image": require("../../public/static/images/portrait/plant.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 36,
 		"name": "Ancient Life",
-		"image": require("../../public/static/images/portraitBird.jpg"),
+		"image": require("../../public/static/images/portrait/portraitBird.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 37,
 		"name": "Architecture",
-		"image": require("../../public/static/images/sideBuilding2.jpg"),
+		"image": require("../../public/static/images/cities/sideBuilding2.jpg"),
 		"category": "City"
 	},
 	{
 		"id": 38,
 		"name": "Sunset Waterfront",
-		"image": require("../../public/static/images/sunsetBoat.jpg"),
+		"image": require("../../public/static/images/beach/sunsetBoat.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 39,
 		"name": "Sunset in Venice",
-		"image": require("../../public/static/images/sunsetBoat2.jpg"),
+		"image": require("../../public/static/images/beach/sunsetBoat2.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 40,
 		"name": "A Couple in Sunset",
-		"image": require("../../public/static/images/sunsetCouple.jpg"),
+		"image": require("../../public/static/images/beach/sunsetCouple.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 41,
 		"name": "Sailboat Sunset",
-		"image": require("../../public/static/images/sunsetWaterfront.jpg"),
+		"image": require("../../public/static/images/beach/sunsetWaterfront.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 42,
 		"name": "Abstract Waterfront",
-		"image": require("../../public/static/images/triangleWaterfront.jpg"),
+		"image": require("../../public/static/images/beach/triangleWaterfront.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 43,
 		"name": "Umbrellas",
-		"image": require("../../public/static/images/umbrella.jpg"),
-		"category": "City"
+		"image": require("../../public/static/images/beach/umbrella.jpg"),
+		"category": "Beach"
 	},
 	{
 		"id": 44,
 		"name": "Jazz in Creation",
-		"image": require("../../public/static/images/unfinishedJazz.jpeg"),
+		"image": require("../../public/static/images/jazz/unfinishedJazz.jpeg"),
 		"category": "Jazz"
 	},
 	{
 		"id": 45,
 		"name": "Waves",
-		"image": require("../../public/static/images/water2.jpg"),
+		"image": require("../../public/static/images/beach/water2.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 46,
 		"name": "The Waterfront",
-		"image": require("../../public/static/images/waterfront.jpg"),
+		"image": require("../../public/static/images/beach/waterfront.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 47,
 		"name": "Water rising",
-		"image": require("../../public/static/images/waterPainting.jpg"),
+		"image": require("../../public/static/images/beach/waterPainting.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 48,
 		"name": "The Dock",
-		"image": require("../../public/static/images/waterfrontDock.jpg"),
+		"image": require("../../public/static/images/beach/waterfrontDock.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 49,
 		"name": "Waves Crashing",
-		"image": require("../../public/static/images/wavesCrashing.jpg"),
+		"image": require("../../public/static/images/beach/wavesCrashing.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 50,
 		"name": "A Look and a Sip",
-		"image": require("../../public/static/images/whitePortrait.jpg"),
+		"image": require("../../public/static/images/portrait/whitePortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 51,
 		"name": "White Yacht",
-		"image": require("../../public/static/images/whiteYacht.jpg"),
+		"image": require("../../public/static/images/beach/whiteYacht.jpg"),
 		"category": "Beach"
 	},
 	{
 		"id": 52,
 		"name": "A Look Back",
-		"image": require("../../public/static/images/womanPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/womanPortrait2.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 53,
 		"name": "The Woman",
-		"image": require("../../public/static/images/womanPortrait2.jpg"),
+		"image": require("../../public/static/images/portrait/womanPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
@@ -326,13 +327,13 @@ module.exports = [
 	{
 		"id": 55,
 		"name": "Ancient Art",
-		"image": require("../../public/static/images/womanPortrait4.jpg"),
+		"image": require("../../public/static/images/portrait/womanPortrait4.jpg"),
 		"category": "Portrait"
 	},
 	{
 		"id": 56,
 		"name": "Zebras",
-		"image": require("../../public/static/images/zebraPortrait.jpg"),
+		"image": require("../../public/static/images/portrait/zebraPortrait.jpg"),
 		"category": "Portrait"
 	},
 	{
@@ -449,6 +450,7 @@ module.exports = [
 		"image": require("../../public/static/images/N020.jpg"),
 		"category": "City"
 	},
+
 	{
 		"id": 76,
 		"name": "Nude Back",
