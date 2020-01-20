@@ -98,7 +98,7 @@ export default class gallery extends Component {
     return (
       <Layout>
         <Container>
-          <Flex justifyContent="center">
+          <Flex justifyContent="center" alignContent="center">
             <Box>
               <Button onClick={this.handleClickedAll}>All</Button>
 
@@ -126,6 +126,7 @@ export default class gallery extends Component {
           </Gallery>
         </Container>
       </Layout>
+
     );
   }
 }
@@ -135,11 +136,21 @@ const Button = styled.button`
   border: 1px solid white;
   background: transparent;
   height: 50px;
-  width: 100px;
+  font-size: 17px;
+  min-width: 100px;
   cursor: pointer;
   &:hover {
     background: white;
     color: black;
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+    height: 30px;
+    border: none;
+    &:hover {
+      background: none;
+      color: white;
+    }
   }
 `;
 
@@ -147,8 +158,9 @@ const Container = styled.div`
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 90vw;
   height: 100%;
+  margin: 0 auto;
 `;
 
 const Gallery = styled(Masonry)`
@@ -168,6 +180,20 @@ const Gallery = styled(Masonry)`
       visibility: visible;
       opacity: 1;
     `}
+  @media (max-width: 1533px) {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  @media (max-width: 1200px) {
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  @media (max-width: 800px) {
+    padding-top: 20px;
+    
+  }
 `;
 const ImageContainer = styled.div`
   padding: 10px;
@@ -187,3 +213,4 @@ const Image = styled.img`
   max-height: 100%;
   height: auto;
 `;
+
