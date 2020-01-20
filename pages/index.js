@@ -179,6 +179,7 @@ const Button = styled.button`
 	color: black;
 	transition: background 0.2s;
 	letter-spacing: 4px;
+	cursor: pointer;
 	&:hover {
 		color: white;
 		background: transparent;

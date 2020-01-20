@@ -76,6 +76,10 @@ const NavLink = styled.a`
 	font-size: 18px;
 	letter-spacing: 4px;
 	text-decoration: none;
+	@media (max-width: 368px) {
+		font-size: 14px;
+		letter-spacing: 2px;
+	  }
 `;
 
 const NavUnderline = styled.div`
